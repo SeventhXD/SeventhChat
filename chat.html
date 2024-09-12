@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat | SeventhXD Chat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>SeventhXD Chat</h1>
+        <nav>
+            <a href="login.html">Login</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Chat Room</h2>
+        <div id="roomInfo">
+            <p id="roomCodeDisplay"></p>
+            <p id="userNameDisplay"></p>
+        </div>
+
+        <div id="chatArea">
+            <ul id="messageList"></ul>
+            <form id="messageForm">
+                <input type="text" id="messageInput" placeholder="Type your message here..." required>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+
+        <div class="footer-buttons">
+            <button id="leaveRoomButton">Leave Room</button>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 SeventhXD Chat. All rights reserved.
+    </footer>
+
+    <script src="chat.js"></script>
+</body>
+</html>
